@@ -1,8 +1,7 @@
 # Задача "Учёт товаров":
 # Необходимо реализовать 2 класса Product и Shop,
 # с помощью которых будет производиться запись в файл с продуктами.
-from collections import namedtuple
-from pprint import pprint
+
 
 class Product:
     def __init__(self, name, weight, category):
